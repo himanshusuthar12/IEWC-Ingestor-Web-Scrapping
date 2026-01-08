@@ -1,0 +1,12 @@
+# Ignore files when publishing
+__pycache__/
+.env
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+*.sqlite
+.venv/
+venv/
+local.settings.json

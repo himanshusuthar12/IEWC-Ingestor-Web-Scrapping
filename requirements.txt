@@ -1,0 +1,21 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+pypdf>=3.0.0
+
+# Azure Functions
+azure-functions>=1.18.0
+
+# Qdrant client
+qdrant-client>=1.7.0
+
+# OpenAI (default embedding provider)
+openai>=1.12.0
+
+pdfplumber>=0.9.0
+
+# Optional: sentence-transformers (only needed if using non-OpenAI embedding models)
+# Uncomment the line below ONLY if you need to use sentence-transformers models
+# sentence-transformers>=2.2.0
